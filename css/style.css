@@ -1,0 +1,194 @@
+body {
+
+    background: #W00000;
+    font-family: 'Ubuntu', calibri;
+    font-size: 20px;
+    transition: 1s;
+
+}
+
+header img {
+
+    position: absolute;
+    left: 10px;
+    right: 10%;
+    top: -38px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+#mensagem {
+
+    position: absolute;
+    padding: 10px 10px;
+    width: 680px;
+    height: 288px;
+    left: 145px;
+    top: 220px;
+    border-radius: 32px;
+    border: none;
+    
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+    color: #0A3871;
+
+}
+
+#mensagemCripto {
+
+    position: absolute;
+    width: 310px;
+    height: 550px;
+    left: 20px;
+    top: 20px;
+    padding: 10px 15px;
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    
+    color: #495057;
+
+}
+
+.text-box {
+
+    position: absolute;
+    padding: 10px 10px;
+    width: 360px;
+    height: 675px;
+    left: 880px;
+    top: 25px;
+    
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border: 2px bold;
+    border-radius: 32px;
+}
+
+#copy {
+
+    color: #0A3871;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 910px;
+    top: 640px;
+
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+}
+
+#copy:hover {
+
+    color: #0A3871;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.button-box {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 180px;
+    top: 640px;
+
+}
+
+.codificador {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #F3F5FC;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 24px;
+    gap: 8px;
+    
+    width: 300px;
+    height: 67px;
+    
+    background: #0A3871;
+    border-radius: 24px;
+
+}
+
+.codificador:hover {
+    
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.decodificador {
+
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px;
+    color: #0A3871;
+    font-size: 20px;
+    font-weight: bold;
+
+    width: 300px;
+    height: 67px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.decodificador:hover {
+
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+footer {
+
+    position: absolute;
+    bottom: 5px;
+    color: #0A3871;
+    font-size: 10px;
+
+}
+
